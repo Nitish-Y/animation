@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    width: 70rem;
+    cursor: pointer;
+    text-shadow: 3px 3px black;
+}
+
+.navbar{
+    color: whitesmoke;
+    width: 95%;
+    height: 13%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 60px;
+    margin: 5px 0px 0px 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+    
+.btn1{
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    right: 7%;
+    width: 100px;
+    height: 40px;
+    padding: 5px 10px;
+    background: lightblue;
+    border: 2px solid white; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: absolute;
+    top: 140%;
+    left: 27%;
+    font-size: 15px ;
+    color: black;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    background: lightblue;
+    border: 2px solid white; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 35px;
+    color: aliceblue;
+    text-shadow: 3px 3px black;
+    line-height: 60px;
+}
+
+.container{
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+.sidenav{
+    width: 50px;
+    height: 100vh;
+    background: transparent;
+    position: absolute;
+    right: 2%;
+    top:1%;
+}
+
+.sidenav img {
+    width: 40px;
+}
+
+.menu{
+    display: block;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.sociallinks img, .links img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.sociallinks{
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    right:1.6%;
+}
+
+.links{
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    right:1.6%;
+    bottom: 5%;
+}
+
+.lantern img{
+    width: 150px;
+    animation: lantern linear 8s infinite;
+}
+
+.lantern{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0%;
+}
+
+@keyframes lantern{
+    0%{
+        transform: translateY(0vh);
+        opacity: 0;
+    }
+    20%{
+        opacity: 0.7;
+    }
+    40%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0.7;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.lantern img:nth-child(1){
+    animation-delay: 0s;
+}
+.lantern img:nth-child(2){
+    animation-delay: 2s;
+}
+.lantern img:nth-child(3){
+    animation-delay: 1s;
+}
+.lantern img:nth-child(4){
+    animation-delay: 3s;
+}
+.lantern img:nth-child(5){
+    animation-delay: 0s;
+}
+.lantern img:nth-child(6){
+    animation-delay: 2s;
+}
+.lantern img:nth-child(7){
+    animation-delay: 1s;
+}
+.lantern img:nth-child(8){
+    animation-delay: 3s;
+}
